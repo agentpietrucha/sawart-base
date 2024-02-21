@@ -71,23 +71,57 @@
       </div>
       <div>
         <ul>
-          <li class="border-black border-b-[1px] md:border-b-2">
-            <a href="" class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+          <li
+            id="ksiegarnia"
+            class="border-black border-b-[1px] md:border-b-2 relative"
+          >
+            <a
+              href="https://ksiegarnia.sawart.com.pl/"
+              class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
               ><span class="text-xl md:text-3xl">Księgarnia muzyczna</span>
               <picture class="my-auto mx-0">
                 <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
                 <img src="icons/arrow_mobile.svg" aria-hidden />
               </picture>
             </a>
+            <div class="mask">
+              <a
+                href="https://ksiegarnia.sawart.com.pl/"
+                class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+                ><span class="text-xl md:text-4xl text-[#ffffe4]"
+                  >Księgarnia muzyczna</span
+                >
+                <picture class="my-auto mx-0">
+                  <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
+                  <img src="icons/arrow_mobile.svg" aria-hidden />
+                </picture>
+              </a>
+            </div>
           </li>
-          <li class="border-black">
-            <a href="" class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+
+          <li id="baletowy" class="border-black relative">
+            <a
+              href="https://sklepbaletowy.pl/"
+              class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
               ><span class="text-xl md:text-3xl">Sklep Baletowy</span>
               <picture class="my-auto mx-0">
                 <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
                 <img src="icons/arrow_mobile.svg" aria-hidden />
               </picture>
             </a>
+            <div class="mask">
+              <a
+                href="https://sklepbaletowy.pl/"
+                class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+                ><span class="text-xl md:text-4xl text-[#ffffe4]"
+                  >Sklep Baletowy</span
+                >
+                <picture class="my-auto mx-0">
+                  <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
+                  <img src="icons/arrow_mobile.svg" aria-hidden />
+                </picture>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -158,7 +192,24 @@
               Nie. Nieczynne
             </span>
             <!-- map placeholder -->
-            <div class="flex-1 bg-slate-500 border-black border-b-[1px]"></div>
+            <div class="flex-1 bg-slate-500 border-black border-b-[1px]">
+              <!-- <iframe
+                width="100%"
+                height="100%"
+                class="gmap_iframe"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Sawart moliera 8&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe> -->
+            </div>
+          </div>
+          <!-- IMPORTANT INFO -->
+          <div
+            class="hidden border-black border-x-[1px] border-y-[1px] border-t-[3px] p-5 bg-[#ad0404] text-[#ffffe4] md:text-lg"
+          >
+            <p></p>
           </div>
         </div>
 
@@ -210,7 +261,23 @@
               Nie. Nieczynne
             </span>
             <!-- map placeholder -->
-            <div class="flex-1 bg-slate-500 border-black border-b-[1px]"></div>
+            <div class="flex-1 bg-slate-500 border-black border-b-[1px]">
+              <!-- <iframe
+                width="100%"
+                height="100%"
+                class="gmap_iframe"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Sawart grobla iii&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe> -->
+          </div>
+          <!-- IMPORTANT INFO -->
+          <div
+            class="hidden border-black border-x-[1px] border-y-[1px] border-t-[3px] p-5 bg-[#ad0404] text-[#ffffe4] md:text-lg"
+          >
+            <p></p>
           </div>
         </div>
       </div>
@@ -253,7 +320,7 @@
       class="border-black border-t-4 border-b-4 md:border-b-0 md:border-t-[6px] flex items-center justify-between py-2 px-3 md:px-6"
     >
       <span>Copyright @sawart</span>
-      <span>made by Karolek</span>
+      <span><a class="hover:underline" href="https://www.linkedin.com/in/savickik/" target="_blank" rel="noopener">made by Karolek</a></span>
     </footer>
   </body>
 </html>
