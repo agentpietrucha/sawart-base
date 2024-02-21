@@ -1,0 +1,94 @@
+tmp.html<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Sawart</title>
+  </head>
+
+  <body class="border-black border-4">
+    <nav class="flex md:h-32 flex-col md:flex-row">
+      <div class="flex items-center justify-center p-4 md:p-8 border-b-2">
+        <img src="SAWART-logo.svg" />
+      </div>
+      <div class="flex border-black border-t-4 md:border-none">
+        <ul
+          class="flex list-none text-sm md:text-2xl justify-between flex-1 border-black"
+        >
+          <a
+            href="#sklepy-internetowe"
+            class="flex w-full justify-center text-center lg:text-nowrap items-center px-2 py-4 border-black md:border-l-2 md:p-8 hover:border-red-600"
+          >
+            <li>
+              <span>Sklepy Internetowe</span>
+            </li>
+          </a>
+          <a
+            href="#sklepy-stacjonarne"
+            class="flex w-full justify-center text-center lg:text-nowrap items-center border-l-2 px-2 py-4 border-black md:p-8 hover:border-red-600"
+          >
+            <li>
+              <span>Sklepy Stacjonarne</span>
+            </li>
+          </a>
+          <a
+            href="#historia"
+            class="flex w-full justify-center text-center lg:text-nowrap items-center border-l-2 md:border-r-2 px-2 py-4 border-black md:p-8 hover:border-red-600"
+          >
+            <li>
+              <span>Historia</span>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Sklepy Internetowe -->
+    <section id="sklepy-internetowe" class="flex flex-col">
+      <!-- Section Title -->
+      <div class="border-b-4 border-t-[6px] border-black">
+        <h1 class="font-lombard text-2xl md:text-5xl font-bold p-4 md:p-8">
+          Sklepy Internetowe
+        </h1>
+      </div>
+      <div>
+        <a
+          href="#"
+          class="flex items-center justify-start p-4 md:p-8 border-black border-b-2 hover:border-red-600"
+        >
+          <div>
+            <h3 class="text-xl md:text-3xl font-bold">Księgarnia Muzyczna</h3>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex items-center justify-start p-4 md:p-8 hover:border-red-600"
+        >
+          <div>
+            <h3 class="text-xl md:text-3xl font-bold">Sklep Baletowy</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sklepy Stacjonarne -->
+    <section id="sklepy-stacjonarne" class="flex flex-col">
+      <!-- Section Title -->
+      <div class="border-b-4 border-t-[6px] border-black">
+        <h1 class="text-2xl md:text-5xl font-bold p-4 md:p-8">
+          Sklepy Stacjonarne
+        </h1>
+      </div>
+    </section>
+
+    <!-- Historia -->
+    <section id="historia" class="flex flex-col">
+      <!-- Section Title -->
+      <div class="border-b-4 border-t-[6px] border-black">
+        <h1 class="text-2xl md:text-5xl font-bold p-4 md:p-8">Historia</h1>
+      </div>
+    </section>
+  </body>
+</html>

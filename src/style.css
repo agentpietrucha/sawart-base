@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Lombard';
+  src: url('/fonts/lombard/Lombard-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cyrulik';
+  src: url('/fonts/cyrulik/Cyrulik-Sharp.woff') format('woff');
+}

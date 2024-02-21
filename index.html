@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Sawart</title>
+  </head>
+
+  <!-- max-width to decide later -->
+  <body
+    class="border-black md:border-4 max-w-[1920px] my-0 mx-auto font-cyrulik bg-[#F3DFC1]"
+  >
+    <nav class="flex flex-col md:flex-row">
+      <div
+        class="flex p-4 md:p-6 border-black border-b-2 md:border-b-0 md:border-r-2 items-center justify-center"
+      >
+        <img src="SAWART-logo.svg" class="h-12 md:h-16" />
+      </div>
+      <div>
+        <ul class="flex flex-ro h-full justify-evenly">
+          <li class="flex-1">
+            <a
+              href="#sklepy-stacjonarne"
+              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#402C2C] hover:text-[#FFFFE4] hover:font-bold"
+              ><span class="text-sm md:text-2xl md:text-nowrap"
+                >Sklepy Stacjonarne</span
+              ></a
+            >
+          </li>
+          <li class="flex-1">
+            <a
+              href="#sklepy-internetowe"
+              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#DC836D] hover:text-[#FFFFE4] hover:font-bold"
+              ><span class="text-sm md:text-2xl md:text-nowrap"
+                >Sklepy Internetowe</span
+              ></a
+            >
+          </li>
+          <li class="flex-1">
+            <a
+              href="#historia"
+              class="border-black md:border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#E78AA1] hover:text-[#FFFFE4] hover:font-bold"
+              ><span class="text-sm md:text-2xl md:text-nowrap"
+                >Historia</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section
+      id="sklepy-stacjonarne"
+      class="border-black border-t-4 md:border-t-[6px]"
+    >
+      <div
+        class="border-black border-b-2 md:border-b-4 bg-[#402C2C] flex items-center"
+      >
+        <h1
+          class="font-lombard text-2xl md:text-4xl font-bold pl-3 p-6 md:pl-6 md:p-8 text-[#FFFFE4]"
+        >
+          Sklepy Internetowe
+        </h1>
+        <img
+          src="section-icons/internet-dog.svg"
+          class="h-11 md:h-20"
+          aria-hidden
+        />
+      </div>
+      <div>
+        <ul>
+          <li class="border-black border-b-[1px] md:border-b-2">
+            <a href="" class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+              ><span class="text-xl md:text-3xl">Księgarnia muzyczna</span>
+              <picture class="my-auto mx-0">
+                <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
+                <img src="icons/arrow_mobile.svg" aria-hidden />
+              </picture>
+            </a>
+          </li>
+          <li class="border-black">
+            <a href="" class="flex gap-8 p-4 pl-3 md:pl-6 md:p-6"
+              ><span class="text-xl md:text-3xl">Sklep Baletowy</span>
+              <picture class="my-auto mx-0">
+                <source media="(min-width: 768px)" srcset="icons/arrow.svg" />
+                <img src="icons/arrow_mobile.svg" aria-hidden />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="sklepy-internetowe"
+      class="border-black border-t-4 md:border-t-[6px]"
+    >
+      <div
+        class="border-black border-b-2 md:border-b-4 bg-[#DC836D] flex items-center"
+      >
+        <h1
+          class="font-lombard text-2xl md:text-4xl font-bold pl-3 p-6 md:pl-6 md:p-8 text-[#FFFFE4]"
+        >
+          Sklepy Stacjonarne
+        </h1>
+        <img src="section-icons/shop.svg" class="h-16 md:h-20" aria-hidden />
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-center justify-center gap-4 p-4"
+      >
+        <!-- Warszawa Card -->
+        <div class="border-black border-2 flex-1 w-full">
+          <h3
+            class="text-xl md:text-3xl font-bold border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4"
+          >
+            Warszawa
+          </h3>
+          <!-- image placeholder -->
+          <div class="h-80 bg-slate-500 border-black border-b-[1px]"></div>
+          <span
+            class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+            ><img src="icons/map-pin.svg" aria-hidden class="h-6 md:h-8" />ul.
+            Moliera 8, 00-076</span
+          >
+          <a href="tel:+228262378" class="hover:underline">
+            <span
+              class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+              ><img src="icons/phone.svg" aria-hidden class="h-6 md:h-8" />+22
+              826 23 78</span
+            >
+          </a>
+          <a href="mailto:sklep@sklepbaletowy.pl" class="hover:underline">
+            <span
+              class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+              ><img
+                src="icons/email.svg"
+                aria-hidden
+                class="h-6 md:h-8"
+              />sklep@sklepbaletowy.pl</span
+            >
+          </a>
+          <div class="flex p-4 gap-4">
+            <span class="text-lg md:text-2xl">
+              Pon. 11:00 - 19:00
+              <br />
+              Wto. 11:00 - 19:00
+              <br />
+              Śro. 11:00 - 19:00
+              <br />
+              Czw. 11:00 - 19:00
+              <br />
+              Pią. 11:00 - 19:00
+              <br />
+              Sob. 11:00 - 15:00
+              <br />
+              Nie. Nieczynne
+            </span>
+            <!-- map placeholder -->
+            <div class="flex-1 bg-slate-500 border-black border-b-[1px]"></div>
+          </div>
+        </div>
+
+        <!-- Gdańsk Card -->
+        <div class="border-black border-2 flex-1 w-full">
+          <h3
+            class="text-xl md:text-3xl font-bold border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4"
+          >
+            Gdańsk
+          </h3>
+          <!-- image placeholder -->
+          <div class="h-80 bg-slate-500 border-black border-b-[1px]"></div>
+          <span
+            class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+            ><img src="icons/map-pin.svg" aria-hidden class="h-6 md:h-8" />ul.
+            Grobla III 1/6, 80-840</span
+          >
+          <a href="tel:+583543434" class="hover:underline">
+            <span
+              class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+              ><img src="icons/phone.svg" aria-hidden class="h-6 md:h-8" />+58
+              354 34 34</span
+            >
+          </a>
+          <a href="mailto:gdansk@sklepbaletowy.pl" class="hover:underline">
+            <span
+              class="flex items-center gap-4 border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4 text-lg md:text-2xl"
+              ><img
+                src="icons/email.svg"
+                aria-hidden
+                class="h-6 md:h-8"
+              />gdansk@sklepbaletowy.pl</span
+            >
+          </a>
+          <div class="flex p-4 gap-4">
+            <span class="text-lg md:text-2xl">
+              Pon. Nieczynne
+              <br />
+              Wto. 11:00 - 19:00
+              <br />
+              Śro. 11:00 - 19:00
+              <br />
+              Czw. 11:00 - 19:00
+              <br />
+              Pią. 11:00 - 19:00
+              <br />
+              Sob. 11:00 - 16:00
+              <br />
+              Nie. Nieczynne
+            </span>
+            <!-- map placeholder -->
+            <div class="flex-1 bg-slate-500 border-black border-b-[1px]"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="historia" class="border-black border-t-4 md:border-t-[6px]">
+      <div
+        class="border-black border-b-2 md:border-b-4 bg-[#E78AA1] flex items-center"
+      >
+        <h1
+          class="font-lombard text-2xl md:text-4xl font-bold pl-3 p-6 md:pl-6 md:p-8 text-[#FFFFE4]"
+        >
+          Historia
+        </h1>
+        <img src="section-icons/history.svg" class="h-16 md:h-24" aria-hidden />
+      </div>
+      <div class="flex flex-col md:flex-row">
+        <div class="flex-1 border-black md:border-r-2 p-4">
+          <span class="text-lg md:text-2xl"
+            >To jest nasza bardzo fajna historia założenia firmy. To jest nasza
+            bardzo fajna historia założenia firmy. To jest nasza bardzo fajna
+            historia założenia firmy. To jest nasza bardzo fajna historia
+            założenia firmy. To jest nasza bardzo fajna historia założenia
+            firmy. To jest nasza bardzo fajna historia założenia firmy. To jest
+            nasza bardzo fajna historia założenia firmy. To jest nasza bardzo
+            fajna historia założenia firmy. To jest nasza bardzo fajna historia
+            założenia firmy. To jest nasza bardzo fajna historia założenia
+            firmy. To jest nasza bardzo fajna historia założenia firmy. To jest
+            nasza bardzo fajna historia założenia firmy.</span
+          >
+        </div>
+        <div class="flex flex-1 p-2">
+          <div
+            class="h-[300px] flex-1 bg-slate-500 border-black border-2"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="border-black border-t-4 border-b-4 md:border-b-0 md:border-t-[6px] flex items-center justify-between py-2 px-3 md:px-6"
+    >
+      <span>Copyright @sawart</span>
+      <span>made by Karolek</span>
+    </footer>
+  </body>
+</html>
