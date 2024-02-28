@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -22,17 +22,8 @@
         <ul class="flex flex-ro h-full justify-evenly">
           <li class="flex-1">
             <a
-              href="#sklepy-stacjonarne"
-              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#402C2C] hover:text-[#FFFFE4] hover:font-bold"
-              ><span class="text-sm md:text-2xl md:text-nowrap"
-                >Sklepy Stacjonarne</span
-              ></a
-            >
-          </li>
-          <li class="flex-1">
-            <a
               href="#sklepy-internetowe"
-              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#DC836D] hover:text-[#FFFFE4] hover:font-bold"
+              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#e78aa2] hover:text-[#FFFFE4] hover:font-bold"
               ><span class="text-sm md:text-2xl md:text-nowrap"
                 >Sklepy Internetowe</span
               ></a
@@ -40,8 +31,17 @@
           </li>
           <li class="flex-1">
             <a
+              href="#sklepy-stacjonarne"
+              class="border-black border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#dd836d] hover:text-[#FFFFE4] hover:font-bold"
+              ><span class="text-sm md:text-2xl md:text-nowrap"
+                >Sklepy Stacjonarne</span
+              ></a
+            >
+          </li>
+          <li class="flex-1">
+            <a
               href="#historia"
-              class="border-black md:border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#E78AA1] hover:text-[#FFFFE4] hover:font-bold"
+              class="border-black md:border-r-2 h-full flex items-center justify-center px-2 py-3 text-center md:px-4 hover:bg-[#402c2d] hover:text-[#FFFFE4] hover:font-bold"
               ><span class="text-sm md:text-2xl md:text-nowrap"
                 >Historia</span
               ></a
@@ -50,6 +50,16 @@
         </ul>
       </div>
     </nav>
+
+    <section
+      class="border-black border-t-4 md:morder-t-[6px] flex flex-col gap-4 pl-3 p-6 md:pl-6 md:p-8"
+    >
+      <h1 class="text-3xl md:text-5xl font-bold">Witamy w Sawarcie</h1>
+      <p class="text-lg md:text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        voluptates, quos, quas, quod quia quibusdam quae quidem quae quidem qu
+      </p>
+    </section>
 
     <section
       id="sklepy-stacjonarne"
@@ -145,7 +155,7 @@
         class="flex flex-col md:flex-row items-center justify-center gap-4 p-4"
       >
         <!-- Warszawa Card -->
-        <div class="border-black border-2 flex-1 w-full">
+        <div class="border-black border-2 flex-1 w-full bg-[#F3DFC1]">
           <h3
             class="text-xl md:text-3xl font-bold border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4"
           >
@@ -214,7 +224,7 @@
         </div>
 
         <!-- Gdańsk Card -->
-        <div class="border-black border-2 flex-1 w-full">
+        <div class="border-black border-2 flex-1 w-full bg-[#F3DFC1]">
           <h3
             class="text-xl md:text-3xl font-bold border-black border-b-[1px] pl-1 py-2 md:pl-2 md:py-4"
           >
@@ -302,16 +312,12 @@
       <div class="flex flex-col md:flex-row">
         <div class="flex-1 border-black md:border-r-2 p-4">
           <span class="text-lg md:text-2xl"
-            >To jest nasza bardzo fajna historia założenia firmy. To jest nasza
-            bardzo fajna historia założenia firmy. To jest nasza bardzo fajna
-            historia założenia firmy. To jest nasza bardzo fajna historia
-            założenia firmy. To jest nasza bardzo fajna historia założenia
-            firmy. To jest nasza bardzo fajna historia założenia firmy. To jest
-            nasza bardzo fajna historia założenia firmy. To jest nasza bardzo
-            fajna historia założenia firmy. To jest nasza bardzo fajna historia
-            założenia firmy. To jest nasza bardzo fajna historia założenia
-            firmy. To jest nasza bardzo fajna historia założenia firmy. To jest
-            nasza bardzo fajna historia założenia firmy.</span
+            >Firma Sawart powstala w 1994 roku. Wlascicielem jest mgr Aleksander
+            Sawicki, absolwent dyrygentury katowickiej Akademii Muzycznej w
+            klasie profesora Jana Wincentego Hawela. Sawart poleca szeroko
+            pojete materialy muzyczne - nuty, ksiazki, podreczniki, zapisy
+            audio, CD, VHS i DVD, czasopisma, a takze instrumenty i akcesoria.
+            Realizujemy zamówienia specjalne.</span
           >
         </div>
         <div class="flex flex-1 p-2">
@@ -335,5 +341,6 @@
         ></span
       >
     </footer>
+    <!-- <script src="./src/main.ts"></script> -->
   </body>
 </html>
